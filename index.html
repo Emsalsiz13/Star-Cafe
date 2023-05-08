@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/img/logo.png" type="image/x-icon" />
+    <title>STAR KAFE</title>
+
+    <!--============== Google Fonts =============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--============== Remixicons  =============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--============== Main CSS  =============-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
+  <body>
+    <!--======================= Header =============================-->
+      <header id="header" class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__brand"
+          ><img width="125" src="/assets/img/logo.png" alt=""
+        /></a>
+        <div id="nav-menu" class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Anasayfa</a>
+            </li>
+            <li class="nav__item">
+              <a href="#feature" class="nav__link">Özellikler</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Hakkımızda</a>
+            </li>
+            <li class="nav__item">
+              <a href="#menu" class="nav__link">Menü</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__buttons">
+          <div class="nav__icon shop__icon">
+            <i class="ri-shopping-bag-line"></i>
+            <span class="shop__number">0</span>
+          </div>
+          <div class="nav__icon nav__toggle">
+            <i id="nav-toggle" class="ri-menu-3-line"></i>
+          </div>
+          <div class="nav__icon sidebar__toggle">
+            <i id="sidebar-toggle" class="ri-more-2-fill"></i>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+      <main class="main">
+      <!--======================= Sidebar =============================-->
+      <div id="sidebar" class="sidebar">
+        <div class="sidebar__header">
+          <h2 class="sidebar__title">İletişim</h2>
+          <p class="sidebar__description">
+            Star Kafe hizmetinize hız kesmeden devam ediyor. Hizmetlerimizden
+            faydalanmak için lütfen bizimle iletişime geçin...
+          </p>
+        </div>
+        <div class="sidebar__content">
+          <ul class="sidebar__list">
+            <li class="sidebar__item">
+              <span class="sidebar__subtitle">Addres:</span>
+              <span>Tatvan, Yaşam AVM</span>
+            </li>
+            <li class="sidebar__item">
+              <span class="sidebar__subtitle">Açık Saatlerimiz: </span>
+              <span>8:00 - 21:00 </span>
+            </li>
+            <li class="sidebar__item">
+              <span class="sidebar__subtitle">Telefon Numarası:</span>
+              <span>+(09) 123-456-78-90</span>
+            </li>
+            <li class="sidebar__item">
+              <span class="sidebar__subtitle">E-Posta:</span>
+              <span>e.bakirhan@hotmail.com</span>
+            </li>
+            <li class="sidebar__item">
+              <span class="sidebar__subtitle">Sosyal Medyalarımız:</span>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="javascript:void(0)" class="social__link">
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="javascript:void(0)" class="social__link">
+                    <i class="ri-instagram-fill"></i>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="javascript:void(0)" class="social__link">
+                    <i class="ri-twitter-fill"></i>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="javascript:void(0)" class="social__link">
+                    <i class="ri-youtube-fill"></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--======================= Home =============================-->
+      <section id="home" class="home">
+        <div class="d-grid home__wrapper container">
+          <div class="home__content">
+            <h1 class="home__title">Duygularınızı hissettirecek bir lezzet!</h1>
+            <p class="home__description">
+              Parmaklarınızıda beraberinde yiyeceğiniz bir yemek çeşidiyle
+              sizlerleyiz. Kafemize bekleriz...
+            </p>
+            <a href="#" class="btn btn--primary">Menümüzü Keşfedin</a>
+          </div>
+          <img src="assets/img/home.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--======================= feature =============================-->
+      <section id="feature" class="section feature">
+        <div class="section__header">
+          <span class="section__subtitle">Özelliklerimiz</span>
+          <h2 class="section__title">Neden Bizi Seçmelisiniz?</h2>
+        </div>
+        <div class="d-grid feature__wrapper container">
+          <!------- feature card 1 -------->
+          <div class="feature__card">
+            <div class="feature__icon">
+              <i class="ri-file-list-3-line"></i>
+            </div>
+            <h3 class="feature__title">Kapsamlı Menü</h3>
+            <p class="feature__description">
+              Lezzetleriyle ön plana çıkan yemeklerimizle sizi uzun bir hayal
+              yolculuğuna çıkarıyor...
+            </p>
+          </div>
+          <!------- feature card 2 -------->
+          <div class="feature__card">
+            <div class="feature__icon">
+              <i class="ri-takeaway-line"></i>
+            </div>
+            <h3 class="feature__title">Hızlı teslimat</h3>
+            <p class="feature__description">
+              En geç 15 dakika içerisinde yapılan hzılı teslimatla bizi
+              seçmenize değer...
+            </p>
+          </div>
+          <!------- feature card 3 -------->
+          <div class="feature__card">
+            <div class="feature__icon">
+              <i class="ri-medal-2-line"></i>
+            </div>
+            <h3 class="feature__title">Yüksek kalite</h3>
+            <p class="feature__description">
+              Kaliteli malzemelerle sizlere lezzetin doruğunu yaşatmaya karar
+              verdik. Hadi birlikte bu doruğa ulaşalım...
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= About ============================-->
+      <section id="about" class="section about">
+        <div class="d-grid about__wrapper container">
+          <div class="about__content">
+            <span class="about__subtitle">Star Kafe'ye Hoşgeldiniz</span>
+            <h2 class="about__title">Geleneksel anne yemeği yapıyoruz</h2>
+            <p class="about__description">
+              Muzlu Sandiviç,Tavuk Burger,Dilimlenmiş Yumurtalı Sandviç,
+              Salatalı Patlıcan Dolması, Karnabahar ve Fındık Salatası, Salatalı
+              Pesto Makarna Et Soslu Spagetti, Somon ve Kabak, Sebzeli Izgara Et
+              <br /><br />
+              Oreolu Dondurma, Frambuazlı Kek, Çikolatalı Kek
+            </p>
+            <a href="javascript:void(0)" class="btn btn--primary"
+              >Hikayemizi Keşfedin...</a
+            >
+          </div>
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <!--======================= Menu ============================-->
+      <section id="menu" class="section menu">
+        <div class="section__header">
+          <span class="section__subtitle">Menümüz</span>
+          <h2 class="section__title">Bugünün Menüsü</h2>
+        </div>
+        <div class="menu__filter">
+          <span class="menu__item menu__item--active" data-filter=".breakfast"
+            >Kahvaltı</span
+          >
+          <span class="menu__item" data-filter=".lunch">Öğle Yemeği</span>
+          <span class="menu__item" data-filter=".dinner">Akşam Yemeği</span>
+          <span class="menu__item" data-filter=".dessert">Tatlılar</span>
+        </div>
+        <div class="d-grid menu__wrapper container">
+          <!------ breakfast 1 ---------->
+          <div class="menu__card breakfast mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/breakfast1.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Muzlu Sandiviç</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ breakfast 2 ---------->
+          <div class="menu__card breakfast mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/breakfast2.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Tavuk Burger</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ breakfast 3 ---------->
+          <div class="menu__card breakfast mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/breakfast3.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Dilimlenmiş Yumurtalı Sandviç</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+
+          <!------ Lunch 1 ---------->
+          <div class="menu__card lunch mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/lunch1.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Salatalı Patlıcan Dolması</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ Lunch 2 ---------->
+          <div class="menu__card lunch mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/lunch2.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Karnabahar ve Fındık Salatası</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ Lunch 3 ---------->
+          <div class="menu__card lunch mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/lunch3.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Salatalı Pesto Makarna</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+
+          <!------ dinner 1 ---------->
+          <div class="menu__card dinner mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/dinner1.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Et Soslu Spagetti</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ dinner 2 ---------->
+          <div class="menu__card dinner mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/dinner2.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Somon ve Kabak</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ dinner 3 ---------->
+          <div class="menu__card dinner mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/dinner3.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Sebzeli Izgara Et</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+
+          <!------ desserts 1 ---------->
+          <div class="menu__card dessert mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/dessert1.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Oreolu Dondurma</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ desserts 2 ---------->
+          <div class="menu__card dessert mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/dessert2.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Frambuazlı Kek</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+          <!------ desserts 3 ---------->
+          <div class="menu__card dessert mix">
+            <div class="menu__img-wrapper">
+              <img src="assets/img/dessert3.jpg" alt="" class="menu__img" />
+            </div>
+            <div class="menu__card-body">
+              <h3 class="menu__title">Çikolatalı Kek</h3>
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+              <span class="menu__price">$12.00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= Testimonial ============================-->
+      <section class="section testimonial">
+        <div class="section__header">
+          <span class="section__subtitle">Geri Bildirim</span>
+          <h2 class="section__title">Mutlu Müşteriler</h2>
+        </div>
+        <div class="d-grid testimonial__wrapper container">
+          <!------- testimonial card 1 ------------>
+          <div class="testimonial__card">
+            <div class="testimonial__header">
+              <img
+                class="testimonial__img"
+                alt=""
+                src="assets/img/testimonial1.jpg"
+              />
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+            </div>
+            <div class="testimonial__body">
+              <p class="testimonial__quote">
+                Anne yemeği aradğım en büyük kriterdi.Bunun için Star Kafe
+                diyorum...
+              </p>
+              <h3 class="testimonial__name">Miray SAKCİ</h3>
+            </div>
+          </div>
+          <!------- testimonial card 2 ------------>
+          <div class="testimonial__card">
+            <div class="testimonial__header">
+              <img
+                class="testimonial__img"
+                alt=""
+                src="assets/img/testimonial2.jpg"
+              />
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+            </div>
+            <div class="testimonial__body">
+              <p class="testimonial__quote">
+                Tatvan'ın en gözde mekanında en leziz yemekleri keyifle
+                yiyorum...
+              </p>
+              <h3 class="testimonial__name">Üseyd BAKIRHAN</h3>
+            </div>
+          </div>
+          <!------- testimonial card 3 ------------>
+          <div class="testimonial__card">
+            <div class="testimonial__header">
+              <img
+                class="testimonial__img"
+                alt=""
+                src="assets/img/testimonial3.jpg"
+              />
+              <div class="rating">
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-fill"></i>
+                </span>
+                <span class="rating__star">
+                  <i class="ri-star-half-fill"></i>
+                </span>
+              </div>
+            </div>
+            <div class="testimonial__body">
+              <p class="testimonial__quote">
+                Sıcak ve samimi bir ortam istiyorsanız Star Kafe'yi herkese
+                tavsiye ediyorum...
+              </p>
+              <h3 class="testimonial__name">Hüma ŞENGÜL</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= Blog ============================-->
+      <section id="blog" class="section blog">
+        <div class="section__header">
+          <span class="section__subtitle">Blogumuz</span>
+          <h2 class="section__title">Son Gönderiler</h2>
+        </div>
+        <div class="d-grid blog__wrapper container">
+          <!------- blog post 1 --------->
+          <div class="blog__post">
+            <div class="blog__overlay"></div>
+            <img src="assets/img/blog1.jpg" alt="" class="blog__img" />
+            <div class="blog__content">
+              <h3 class="blog__title">2023 için 30 sağlıklı kahvaltı fikri</h3>
+              <a href="javascript:void(0)" class="blog__link">Devam Et...</a>
+            </div>
+          </div>
+          <!------- blog post 2 --------->
+          <div class="blog__post">
+            <div class="blog__overlay"></div>
+            <img src="assets/img/blog2.jpg" alt="" class="blog__img" />
+            <div class="blog__content">
+              <h3 class="blog__title">2022'den en iyi 10 favori tarifi</h3>
+              <a href="javascript:void(0)" class="blog__link">Devam Et...</a>
+            </div>
+          </div>
+          <!------- blog post 3 --------->
+          <div class="blog__post">
+            <div class="blog__overlay"></div>
+            <img src="assets/img/blog3.jpg" alt="" class="blog__img" />
+            <div class="blog__content">
+              <h3 class="blog__title">Yumurta nasıl haşlanır?</h3>
+              <a href="javascript:void(0)" class="blog__link">Devam Et...</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      </main>
+    <!--======================= Footer ============================-->
+      <footer class="footer">
+      <div class="d-grid footer__wrapper container">
+        <div class="footer__content">
+          <h4 class="footer__brand">
+            <img width="125" src="/assets//img/logo.png" alt="" />
+          </h4>
+          <p class="footer__description">
+            Star Kafe ailesi olarak sizlere daha iyi ve kaliteli hizmet vermek
+            için buradayız. Sizler nerdesiniz?
+          </p>
+          <ul class="social__list footer__list">
+            <li class="social__item">
+              <a href="javascript:void(0)" class="social__link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="javascript:void(0)" class="social__link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="javascript:void(0)" class="social__link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="javascript:void(0)" class="social__link">
+                <i class="ri-youtube-fill"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h4 class="footer__title">Menümüz</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Kahvaltı</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Öğle Yemeği</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Akşam Yemeği</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Tatlılar</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h4 class="footer__title">Hızlı Linkler</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Menü</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Hakkımızda</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Görüşler</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h4 class="footer__title">Destek Ekibi</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link">İletişim</a>
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link"
+                >Kullanım Şartları</a
+              >
+            </li>
+            <li class="footer__item">
+              <a href="javascript:void(0)" class="footer__link"
+                >Gililik Politikası</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer__copyright">EMSAL BAKIRHAN</p>
+      </footer>
+
+    <!--=================== ScrollReveal ==================-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=================== Mixitup  ====================-->
+      <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=================== Main JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
